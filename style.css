@@ -26,4 +26,34 @@ body{
 
 .contenedor{
     display: flex; /*las imagenes se organizan una junto a otras y no debajo*/
+    /*justify-content: center; /*centrar en contenido*/
+    /*justify-content: baseline; las imagenes se van a lado izquierdo*/
+    /*justify-content: end; las imagenes se van hacia el lado derecho*/
+    /*justify-content: first baseline; las imagenes se van a lado izquierdo*/
+    /*justify-content: flex-end;las imagenes se van hacia el lado derecho*/
+    /*justify-content: flex-start;  las imagenes se van a lado izquierdo*/
+    /*justify-content: last baseline;las imagenes se van a lado izquierdo*/
+    /*justify-content: left; izquierda*/
+    /*justify-content: right; derecha*/
+    /*justify-content: safe;left; izquierda*/
+    justify-content: space-around;/* Espacios alrededor ► las tres imagenes se separan por espacios iguales*/
+    /*justify-content: space-between; Espacios alrededor ► las tres imagenes se separan por espacios iguales pero sin dejar espacio en los bordes de la pantalla*/
+}
+
+.contenedor1{
+    display: flex;
+    flex-wrap: wrap;/*especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas. Si la cobertura (wrap) está permitida, esta propiedad también te permite controlar la dirección en la cual serán apilados los elementos.*/
+}
+
+
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;/*especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas. Si la cobertura (wrap) está permitida, esta propiedad también te permite controlar la dirección en la cual serán apilados los elementos.*/
+}
+.box{
+    width: 70%; /*Cada una de las imagenes ocupa el 25% , 70% el porcentaje que quieras sobre 100%*/
+}
+
+.box img{
+    width: 100%; /*Para que distribuya el contenido en la pantalla*/
 }
