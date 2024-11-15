@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    
+}
+
+.menu-navegacion{ /*Esto es para cambiar el color de fondo del menu de navegacion*/
+    background-color: aquamarine;
+    padding: 10px;/*Margen del menu*/
+    margin: 0px;/*para que no tenga margen arriba*/
+}
+
+.menu-navegacion li{ /*Con esto colocamos los elementos de la lista uno junto a otro*/
+    display: inline-block;
+}
+
+.menu-navegacion a{
+    color: white; /*cambiar el color del texto*/
+    text-decoration: none;/*se elimina el subrayado*/
+}
+
+.menu-navegacion a:hover{
+    background-color: rgb(23, 27, 168); /*se llama pseudo selectores y es para marcar con otro color al momento de seleccionar una etiqueta del menu*/
+}
+
+/*-- Estilos flexbox --*/
+
+.contenedor{
+    display: flex; /*las imagenes se organizan una junto a otras y no debajo*/
+}

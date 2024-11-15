@@ -1,0 +1,13 @@
+Display inline - block
+
+Inline-block se comporta como inline, donde puedes poder un elemento al lado de otro, 
+pero a la vez se comporta como block, dado que puedes establecer un ancho y alto.
+
+Es un hibrido de valor display entre block y el inline:
+► Construir un menú.
+► Construir galeria de imagenes.
+
+Que es flex box:
+► Permite alinear contenido de forma sencilla.
+► Ideado para la construccion de layouts que contengan elementos distribuidos en filas
+y columnas.
